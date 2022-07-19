@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:food_delivery_app_ui/data/data.dart';
+import 'package:food_delivery_app_ui/widgets/recent_orders.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({Key? key}) : super(key: key);
@@ -54,6 +55,10 @@ class HomeScreen extends StatelessWidget {
               ),
             ),
           ),
+
+          // TODO: for Recent Orders
+          const RecentOrders(),
+
         ],
       ),
     );
