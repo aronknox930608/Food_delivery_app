@@ -72,8 +72,8 @@ class RecentOrders extends StatelessWidget {
           // TODO: order add BTN
           const SizedBox(height: 4.0),
           Container(
-            margin: const EdgeInsets.only(right: 20.0),
-            width: 50.0,
+            margin: const EdgeInsets.only(right: 10.0),
+            width: 45.0,
             decoration: BoxDecoration(
               color: Theme.of(context).primaryColor,
               shape: BoxShape.circle,
