@@ -1,6 +1,8 @@
-# food_delivery_app_ui
+<b> Food Delivery App Ui </b>
 
-A new Flutter project.
+Food Delivery App Ui with Flutter
+
+<img src='shots/home_screen_shot.png' width='200' height='400'>
 
 ## Getting Started
 
