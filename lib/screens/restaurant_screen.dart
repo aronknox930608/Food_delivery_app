@@ -248,6 +248,7 @@ class RestaurantScreen extends StatelessWidget {
 
           Expanded(
             child: GridView.builder(
+              physics: const BouncingScrollPhysics(),
               padding: const EdgeInsets.all(10.0),
               gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
                 crossAxisCount: 2,

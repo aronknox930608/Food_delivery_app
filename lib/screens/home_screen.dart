@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import '/data/data.dart';
 import '/widgets/recent_orders.dart';
 import '/widgets/nearby_restaurants.dart';
+import '/screens/cart_screen.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({Key? key}) : super(key: key);
@@ -21,7 +22,11 @@ class HomeScreen extends StatelessWidget {
         centerTitle: true,
         actions: [
           TextButton(
-            onPressed: () {},
+            onPressed: () {
+              Navigator.of(context).push(
+                MaterialPageRoute(builder: (context) => const CartScreen()),
+              );
+            },
             child: Text(
               'Cart(${currentUser.cart!.length})',
               style: const TextStyle(color: Colors.white, fontSize: 20.0),
